@@ -5,7 +5,7 @@ metadata:
   namespace: hello-mike
 spec:  
   hosts:
-    - mrc.preprod.esp.dot.state.oh.us
+    - mdotts.preprod.esp.dot.state.oh.us
   gateways:
     - istio-system/istio-gateway
   http:
