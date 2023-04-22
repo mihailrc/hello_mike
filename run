@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+docker run -d -t --rm -p 9999:9999 --name hello_world mihailrc/hello_world
