@@ -2,6 +2,10 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: hello-api-pod
+  namespace: hello-mike
+  labels:
+    app: hello-api
+    version: v1
 spec:
   containers:
   - name: hello-api-pod
